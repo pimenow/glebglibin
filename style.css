@@ -1,0 +1,227 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, sans-serif;
+}
+.container {
+	max-width: 1224px;
+	margin: 0 auto;
+}
+h1, h2 {
+	text-align: center;
+	font-family: 'Poiret One', sans-serif;
+}
+h2 {
+	font-size: 2.5rem;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+}
+/*=====Раздел header=====*/
+
+/*=====Подраздел header-top=====*/
+.header-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #C06C84;
+}
+.logo {
+	padding-left: 10px;
+}
+.header-contacts {
+	padding-right: 10px;
+}
+
+/*=====Подраздел promo=====*/
+.promo {
+	/*padding-top: 200px;
+	padding-bottom: 200px;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 85vh;
+	background-color: #F8B595;
+	color: white;
+}
+.promo h1 {
+	font-size: 3rem;
+	font-weight: 600;
+	padding-bottom: 40px;
+}
+.promo p {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 500;
+	text-align: center;
+}
+/*=====Навигация nav=====*/
+nav {
+	position: sticky;
+	top: 0;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #F67280;
+}
+nav ul {
+	display: flex;
+	max-width: 980px;
+	margin: 0 auto;
+	list-style: none;
+	justify-content: space-around;
+}
+nav li {
+
+}
+
+/*=====Раздел main=====*/
+
+/*=====Подраздел about=====*/
+.about {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.about-wrap {
+	display: flex;
+	justify-content: flex-end;
+}
+.about-title {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.about-wrap p {
+	padding: 20px 30px;
+	font-size: 1.2rem;
+	line-height: 2.0;
+}
+/*=====Подраздел activities=====*/
+.activities {
+	background-color: #C06C84;
+}
+.activities-title {
+	color: white;
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+.activities-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-bottom: 100px;
+}
+.activities-item {
+	box-sizing: border-box;
+	width: 30%;
+	padding: 30px;
+	color: #ddddff;
+	font-size: 1.1rem;
+}
+.activities-image {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+	border: 1px solid lightgray;
+	border-radius: 10px;
+}
+/*=====Подраздел invitation=====*/
+
+/*=====Раздел events=====*/
+
+/*=====Раздел education=====*/
+
+/*=====Раздел training=====*/
+
+/*=====Раздел target=====*/
+
+/*=====Раздел footer=====*/
+footer {
+	background-color: #6C5B7C;
+}
+.footer-wrap {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: #bbbbff;
+}
+/* https://colorscheme.ru/#0032Heejdw0w0 */
+.btn-yellow {
+  background-color: #F67280;
+  padding: 20px;
+  color: white;
+}
+
+.btn-yellow:hover {
+  background-color: #ffc7c7;
+   background-position: right center;
+   	border-radius: 10px;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.img-protection {
+	background-image: url(img/forks.png);
+	background-position: auto;
+	background-size: 100px;
+	background-repeat: no-repeat
+}
+.img-cooperation{
+	background-image: url(img/89-400x400.png);
+	background-position: auto;
+	background-size: 100px;
+	background-repeat: no-repeat
+
+ }
+ .img-skills{
+	background-image: url(img/development-skill.png);
+	background-position: auto;
+	background-size: 100px;
+	background-repeat: no-repeat
+ }
+.img-prestige{
+	background-image: url(img/qwer.png);
+	background-position: auto;
+	background-size: 100px;
+	background-repeat: no-repeat
+}
+.img-qualification{
+	background-image: url(img/qwe.png);
+	background-position: auto;
+	background-size: 100px;
+	background-repeat: no-repeat
+}
+.training-item-photo{
+	height: 150px;
+}
+.btn-invitation {
+	background:#F67280;
+	margin-left:60px;
+	margin-right:700px;
+	text-decoration: none;
+	border-radius: 10px;
+	color: white;
+}
+.btn-invitation a{
+	align-items: center;
+	color: white;
+}
+.btn-invitation:hover {
+  background-color: #ffc7c7;
+  color: #8785a2;
+   background-position: right center;
+   color: #ffffff;
+}
+
+}
+.events-item-title{
+	 text-align:  center;
+}
+.btn-container{
+	padding-left: 40%;
+	padding-right: 0;
+}
